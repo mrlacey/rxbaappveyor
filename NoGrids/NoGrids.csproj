@@ -154,6 +154,12 @@
       <Version>6.2.10</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NoGridAnalyzer\NoGridAnalyzer\NoGridAnalyzer.csproj">
+      <Project>{14ecd516-60cf-4328-b9ea-520034a73008}</Project>
+      <Name>NoGridAnalyzer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
