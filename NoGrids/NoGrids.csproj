@@ -153,6 +153,9 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.10</Version>
     </PackageReference>
+    <PackageReference Include="RapidXaml.BuildAnalysis">
+      <Version>0.9.21</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NoGridAnalyzer\NoGridAnalyzer\NoGridAnalyzer.csproj">
